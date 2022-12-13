@@ -16,7 +16,7 @@ const Navbar = () => {
   const completion=useReadingProgress();
 
   return (
-    <div className="fixed w-full h-[80px] flex justify-between items-center px-4 bg-slate-900 text-gray-300 z-10">
+    <div className="fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#433039] text-gray-300 z-10">
       <div>
       <div className='lg:hidden flex'>
         <ul className="flex">
@@ -95,7 +95,7 @@ const Navbar = () => {
         className={
           !nav
             ? 'hidden'
-            : 'absolute top-0 left-0 w-full h-screen bg-[#0a192f] flex flex-col justify-center z-10 items-center'
+            : 'absolute top-0 left-0 w-full h-screen bg-[#592a3b] flex flex-col justify-center z-10 items-center'
         }
       >
         <li className="py-6 text-4xl">
@@ -166,7 +166,7 @@ const Navbar = () => {
           </li>
         </ul>
       </div>
-      <span style={{transform:`translateX(${completion-101.4}%)`}} className="absolute bg-pink-700 h-[1px] w-full bottom-0"></span>
+      <span style={{transform:`translateX(${completion-101.4}%)`}} className="absolute bg-pink-500 h-[1px] w-full bottom-0"></span>
     </div>
   );
 };
