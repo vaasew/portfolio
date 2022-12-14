@@ -21,8 +21,8 @@ export const data=[
         id:2,
         name:"Portfolio - using React,Tailwind",
         image:portfolio,
-        github:"https://github.com/vaasew/chat-app",
-        live:"",
+        github:"https://github.com/vaasew/portfolio",
+        live:"https://vaasew-portfolio.netlify.app/",
     },
     {
         id:3,
