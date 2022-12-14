@@ -38,9 +38,9 @@ const Navbar = () => {
           </li>
      
           <li className='w-auto h-[45px] flex justify-between items-center' title="Resume">
-            <a
+            <a target="_blank"
               className='flex justify-between items-center w-full text-gray-300'
-              href='/'
+              href='https://drive.google.com/file/d/1os677vOi9rCzasbH2lU9ACMTXynvQpxg/view?usp=sharing'
             >
              <BsFillPersonLinesFill size={30} />
             </a>
@@ -144,7 +144,7 @@ const Navbar = () => {
           <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#565f69]'>
             <a target="_blank"
               className='flex justify-between items-center w-full text-gray-300'
-              href='/'
+              href='https://drive.google.com/file/d/1os677vOi9rCzasbH2lU9ACMTXynvQpxg/view?usp=sharing'
             >
               Resume <BsFillPersonLinesFill size={30} />
             </a>
