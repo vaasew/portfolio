@@ -20,31 +20,24 @@ const Navbar = () => {
       <div>
       <div className='lg:hidden flex'>
         <ul className="flex">
-          <li className='w-auto h-[45px] flex justify-between items-center'>
-            <a
+          <li className='w-auto h-[45px] flex justify-between items-center' title="Linkedin">
+            <a target="_blank"
               className='flex justify-between items-center w-full text-gray-300'
-              href='/'
+              href='https://www.linkedin.com/in/siddharthan-dileep-a513951b9/'
             >
               <FaLinkedin size={30} />
             </a>
           </li>
-          <li className='w-auto h-[45px] flex justify-between items-center'>
-            <a
+          <li className='w-auto h-[45px] flex justify-between items-center' title="Github">
+            <a target="_blank"
               className='flex justify-between items-center w-full text-gray-300'
-              href='/'
+              href='https://github.com/vaasew'
             >
               <FaGithub size={30} />
             </a>
           </li>
-          <li className='w-auto h-[45px] flex justify-between items-center '>
-            <a
-              className='flex justify-between items-center w-full text-gray-300'
-              href='/'
-            >
-              <HiOutlineMail size={30} />
-            </a>
-          </li>
-          <li className='w-auto h-[45px] flex justify-between items-center'>
+     
+          <li className='w-auto h-[45px] flex justify-between items-center' title="Resume">
             <a
               className='flex justify-between items-center w-full text-gray-300'
               href='/'
@@ -75,7 +68,7 @@ const Navbar = () => {
         </li>
         <li>
           <Link to='work' smooth={true} duration={500}>
-            Work
+            Projects
           </Link>
         </li>
         <li>
@@ -118,7 +111,7 @@ const Navbar = () => {
         <li className='py-6 text-4xl'>
           {' '}
           <Link onClick={handleClick} to='work' smooth={true} duration={500}>
-            Work
+            Projects
           </Link>
         </li>
         <li className='py-6 text-4xl'>
@@ -133,31 +126,23 @@ const Navbar = () => {
       <div className='hidden lg:flex fixed flex-col top-[35%] left-0'>
         <ul>
           <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-blue-600'>
-            <a
+            <a target="_blank"
               className='flex justify-between items-center w-full text-gray-300'
-              href='/'
+              href='https://www.linkedin.com/in/siddharthan-dileep-a513951b9/'
             >
               Linkedin <FaLinkedin size={30} />
             </a>
           </li>
           <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#333333]'>
-            <a
+            <a target="_blank"
               className='flex justify-between items-center w-full text-gray-300'
-              href='/'
+              href='https://github.com/vaasew'
             >
               Github <FaGithub size={30} />
             </a>
           </li>
-          <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#6fc2b0]'>
-            <a
-              className='flex justify-between items-center w-full text-gray-300'
-              href='/'
-            >
-              Email <HiOutlineMail size={30} />
-            </a>
-          </li>
           <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#565f69]'>
-            <a
+            <a target="_blank"
               className='flex justify-between items-center w-full text-gray-300'
               href='/'
             >
