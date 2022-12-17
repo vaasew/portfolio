@@ -15,7 +15,7 @@ export const data=[
         name:"BottleFlipKart - E-commerce app using React,RDK,MUI,Firebase",
         image:ecom,
         github:"https://github.com/vaasew/Ecomm-BottleFlipCart",
-        live:"https://bottle-flipkart.netlify.app/",
+        live:"https://bottleflipkart.web.app/",
     },
     {
         id:2,
